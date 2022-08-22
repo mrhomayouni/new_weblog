@@ -29,9 +29,11 @@ $posts = get_post();
 
 } ?>
 
+
+
 <form action="search.php" method="post">
     <input type="text" name="search" >
-    <input type="submit" name="submit" >
+    <input type="submit" name="submit"  value="search">
 </form>
 
 </body>
